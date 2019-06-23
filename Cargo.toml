@@ -59,7 +59,7 @@ tectonic_xdv = { path = "xdv", version = "0.1.9-dev" }
 termcolor = "^1.0"
 toml = "^0.5"
 zip = "^0.5"
-harfbuzz-sys = { git = "https://github.com/ratmice/rust-harfbuzz.git" }
+harfbuzz-sys = { git = "https://github.com/ratmice/rust-harfbuzz.git", branch="ratmice-ci"}
 graphite2-sys = { git = "https://github.com/ratmice/graphite2-sys-rust.git" }
 
 [features]
